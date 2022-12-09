@@ -1,0 +1,10 @@
+.vpPlayer {
+    margin: 16px 0 24px 0;
+    height: auto;
+    width: 100%;
+    cursor: pointer;
+}
+
+.vpPlayer:hover {
+    box-shadow: 0 0 12px black;
+}

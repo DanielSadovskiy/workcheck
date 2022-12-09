@@ -1,0 +1,45 @@
+.loginForm {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 3px solid white;
+    background-color: #C9FFE2;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+
+.title{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.passwordInput{
+    width: 100%;
+    margin-top: 30px;
+    height: 46px;
+    padding: 8px;
+    font-size: 18px;
+}
+
+
+.changePasswordBtn{
+    margin-top: 120px;
+    width: 100px;
+    height: 45px;
+    background-color:white;
+    border-radius: 5px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.changePasswordBtn:hover{
+    box-shadow: 0 0 10px grey;
+}

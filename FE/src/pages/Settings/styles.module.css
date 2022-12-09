@@ -1,0 +1,97 @@
+.settingsPage{
+    align-self: flex-start;
+    width: 100%;
+    margin: 50px 100px;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.changePasswordContainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 64px;
+}
+.title {
+    margin-bottom: 32px;
+}
+
+.inputBox{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    margin-top: 8px;
+    padding: 3px;
+    font-size: 14px;
+}
+
+.showBtn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    color: grey;
+    cursor: pointer;
+}
+
+.saveBtn {
+    background-color: green;
+    width: 120px;
+    margin: 26px auto 0;
+    height: 34px;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 22px;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.saveBtn:hover{
+    box-shadow: 0 0 15px green;
+}
+
+.changePolicyContainer{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-bottom: 64px;
+}
+
+.policiesList{
+    height: 170px;
+    border: 2px solid white;
+    background-color: #def8df;
+    list-style: none;
+    padding: 8px;
+    overflow-y: scroll;
+}
+
+.listItem{
+    margin-bottom: 12px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+
+.listItem button {
+    outline: none;
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    color: red;
+    cursor: pointer;
+}
+
+.listItem button:hover{
+    box-shadow: 0 0 4px red;
+}
